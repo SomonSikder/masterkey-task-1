@@ -1,8 +1,12 @@
 import React from "react";
 import "./Header.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 const Header = () => {
   return (
-    <header className="m-4">
+    <header className="m-4" data-aos="fade-down">
       <div className="d-flex justify-content-between align-items-center">
         <a className="navbar-brand text-dark fw-bolder fs-1" href="#">
           Masterkey

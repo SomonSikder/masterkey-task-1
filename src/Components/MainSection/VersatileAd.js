@@ -26,13 +26,13 @@ const VersatileAd = () => {
     },
     native: {
       title: "NATIVE",
-      img: "https://img.freepik.com/free-vector/american-indians-illustration-design-concept_1284-23633.jpg?t=st=1654034328~exp=1654034928~hmac=c9aec5158e0ea8fcafad47b7b01771e28100b947b90e1b50f2cfd59504d6ed33&w=740",
+      img: "https://img.freepik.com/free-psd/plastic-cosmetic-jar-mockup_358694-3415.jpg?t=st=1654062730~exp=1654063330~hmac=98b47c207e6504003c7e725c3c2c8fa229cd7040165673036a76050470ef4ef0&w=740",
       description:
         "Ad format with the image and the title, that perfectly fits into the content of the site. Native ads are placed in the most visible areas of the page and, thus, this format shows good results and the level of interaction.",
     },
     skim: {
       title: "SKIM",
-      img: "https://img.freepik.com/free-photo/berries-snacks-champagne-stairs-decorated-with-lanterns-wedding-banquet_501050-538.jpg?t=st=1654034383~exp=1654034983~hmac=2b181c4b6ae9f45f22278bb088ec4c1cc84de62607df0d2bff7475165067f4fd&w=360",
+      img: "https://img.freepik.com/free-psd/amber-glass-cosmetic-jar-mockup_358694-4328.jpg?t=st=1654057634~exp=1654058234~hmac=e00386aa5194c71876eabe2d549b1b02f29ae9dbed3387e5ade3192853fdb616&w=740",
       description:
         "SKIM is a link that a publisher inserts on a specific site element, and after clicking on it, an advertisement appears to the user. SKIM gives 100% control of your sold traffic amount, higher CR to advertisers and CPM rates to publishers..",
     },
@@ -52,10 +52,10 @@ const VersatileAd = () => {
       setActive(true);
     }
   };
-  console.log(data);
+
   return (
     <div className="mt-5 main-section">
-      <div className="main-section-head">
+      <div className="main-section-head" data-aos="flip-left">
         <div className="main-section-title">
           <h2 style={{ color: "#644f9c" }}>VERSATILE AD FORMATS</h2>
         </div>

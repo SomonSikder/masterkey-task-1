@@ -1,9 +1,17 @@
 import React from "react";
 import "./Footer.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 const Footer = () => {
   return (
-    <div class="d-flex justify-content-around footer-section">
-      <div>
+    <div
+      class="d-flex justify-content-around footer-section"
+      data-aos="fade-down"
+      data-aos-anchor-placement="center-bottom"
+    >
+      <div data-aos="fade-down" data-aos-anchor-placement="center-bottom">
         <h4 style={{ color: "#644f9c" }}>We are social</h4>
         <h4>FOLLOW US</h4>
         <div>

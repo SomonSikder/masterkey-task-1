@@ -1,12 +1,15 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const SingleAd = ({ data }) => {
   const { title, img, description } = data;
   return (
-    <div className="mx-5" style={{ height: "250px" }}>
+    <div className="mx-5" style={{ height: "250px" }} data-aos="zoom-in">
       <div class="row gx-1">
         <div class="col-5">
-          <img src={img} alt="" className="img-fluid h-75" />
+          <img src={img} alt="" className="img-fluid h-75 rounded" />
         </div>
         <div class="col-6 ">
           <div className="mb-5">
