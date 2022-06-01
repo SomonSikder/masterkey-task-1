@@ -1,0 +1,42 @@
+.circle-section {
+  height: 500px;
+  background: #644f9c;
+}
+.circle1,
+.circle2,
+.circle3 {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 25rem;
+}
+.circle1 {
+  border: 2px dashed white;
+}
+.circle1 p,
+.circle1 h1,
+.circle3 h1,
+.circle3 p {
+  color: white;
+  font-weight: 900;
+}
+.circle2 {
+  background-color: white;
+}
+.circle2 h1,
+.circle2 p {
+  font-weight: 900;
+  color: #644f9c;
+}
+
+.circle3 {
+  background-color: #ff6f00;
+}
+.circle3 h1,
+.circle3 p {
+  font-weight: 900;
+  color: #fff;
+}

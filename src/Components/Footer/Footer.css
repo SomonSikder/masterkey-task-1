@@ -1,0 +1,12 @@
+.footer-section {
+  padding: 5rem 4rem;
+}
+.links-items ul {
+  list-style: none;
+}
+.links-items li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  line-height: 3;
+}

@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--bg-color);
+}
+.container {
+  margin: 0 2rem;
+}
+.main-section {
+  height: 100vh;
+}
+.main-section-head {
+  border-bottom: 4px dotted black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-section-title {
+  text-align: center;
+  background: #f2f2f2;
+  position: absolute;
+  top: -1rem;
+  padding: 0 30px;
+}
+.card-item {
+  margin-top: 5rem;
+  text-align: center;
+  width: 250px;
+}
+.card-item .btn {
+  background: #644f9c;
+  width: 150px;
+}
+.varsatileAb button {
+  margin: 4rem;
+  width: 200px;
+}
+.varsatileAb button:hover {
+  background-color: #ff6f00;
+  color: white;
+}
+/* .active {
+  color: white;
+  background: #ff6f00;
+} */
+
+.carousal-card {
+  width: 500px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card-info {
+  padding: 10px;
+  border: 2px dashed red;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-details {
+  width: 500px;
+}
+.card-img img {
+  width: 170px;
+  border-radius: 10px;
+}
+.carousule-section {
+  margin: 7rem 0;
+  box-shadow: 1px 18px 22px -6px rgba(59, 56, 56, 0.9);
+  -webkit-box-shadow: 1px 18px 22px -6px rgba(59, 56, 56, 0.9);
+  -moz-box-shadow: 1px 18px 22px -6px rgba(59, 56, 56, 0.9);
+}
+.carousule-main {
+  width: 500px;
+}
